@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A game of rock, paper and scissors</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
+
+    <div class="gameboard">
+        <div class="title"><p>Choose your weapon!</p></div>
+        
+        <div class="interactable">
+            <button class="rock"><img src="src/stone.png" alt=""></button>
+            <button class="paper"><img src="src/paper.png" alt=""></button>
+            <button class="scissors"><img src="src/scissor.png" alt=""></button>
+        </div>
+        
+        <div class="score">
+            <h1>SCORE</h1>
+            <p class="message"></p>
+            <p>Human: <span class="human-score">0</span> Computer: <span class="computer-score">0</span></p>
+        </div>
+    </div>
     
 </body>
 <script src="script.js"></script>

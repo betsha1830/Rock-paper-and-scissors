@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+button {
+    height: 150px;
+    width: 120px;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+}
+
+.gameboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.interactable {
+    padding: 5px;
+}
+
+.score {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
